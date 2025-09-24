@@ -509,3 +509,78 @@ nav .menulist a {
     grid-template-columns: 1fr;
   }
 }
+
+.testimonial {
+  padding: 80px 90px 10px 90px;
+  background-color: #a97c30;
+}
+
+.testimonial .wrapper .carousel {
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 70vh;
+  color: white;
+}
+
+.testimonial .wrapper .carousel-indicators {
+  /* border: 2px solid red; */
+  padding-top: 40px;
+}
+
+.testimonial .wrapper .carousel-indicators button {
+  /* border: 2px solid red; */
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.testimonial .wrapper .carousel-item p:nth-child(1) {
+  font-size: 1.5em;
+}
+.testimonial .wrapper .carousel .little {
+  font-style: oblique;
+  padding-bottom: 30px;
+}
+
+.testimonial .wrapper .heading {
+  padding-bottom: 30px;
+}
+
+.testimonial .wrapper .heading h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3em;
+  color: white;
+}
+
+.testimonial .wrapper .heading h3::before {
+  content: "";
+  width: 30px;
+  height: 5px;
+  background-color: #fff;
+  margin-right: 10px;
+}
+
+.testimonial .wrapper .heading h3::after {
+  content: "";
+  width: 30px;
+  height: 5px;
+  background-color: #fff;
+  margin-left: 10px;
+}
+
+@media (max-width: 961px) {
+  .testimonial {
+    padding: 70px 20px 0px 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .testimonial .wrapper .carousel-item p:nth-child(1) {
+    font-size: 1.1em;
+  }
+}
