@@ -193,17 +193,20 @@
     const hamburger = document.querySelector(".hamburger");
     const mobileMenu = document.querySelector(".mobilemenu");
     const cancel = document.querySelector(".cancel");
+    const body = document.querySelector("body");
 
     hamburger.addEventListener("click", () => {
       mobileMenu.classList.add("show");
       hamburger.classList.add("hide");
       cancel.classList.add("show");
+      body.classList.add("no-scroll");
     });
 
     cancel.addEventListener("click", () => {
       mobileMenu.classList.remove("show");
       cancel.classList.remove("show");
       hamburger.classList.remove("hide");
+      body.classList.remove("no-scroll");
     });
 
     window.addEventListener("DOMContentLoaded", () => {
