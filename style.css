@@ -410,6 +410,10 @@ nav .menulist a {
     overflow-x: scroll;
     gap: 1em;
   }
+
+  .services .wrapper .grid::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 .products {
