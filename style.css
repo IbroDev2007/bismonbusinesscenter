@@ -372,8 +372,7 @@ nav .menulist a {
 }
 
 .services .wrapper .grid .parent {
-  /* min-width: 0; */
-  /* border: 2px solid blue; */
+  min-width: 0;
 }
 
 .services .wrapper .grid .parent img {
