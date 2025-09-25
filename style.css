@@ -754,11 +754,22 @@ label:nth-child(9) {
   color: white;
 }
 
+.contact .location {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.contact .location iframe {
+  width: 100%;
+}
+
 @media (max-width: 993px) {
   .contact .wrapper {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 2em;
     max-width: 1200px;
     margin: auto;
   }
