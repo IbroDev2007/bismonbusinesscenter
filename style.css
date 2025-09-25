@@ -601,7 +601,7 @@ nav .menulist a {
 }
 
 .banner .wrapper .banner-left {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
 }
 
 .banner .wrapper .banner-left h1 {
@@ -661,6 +661,13 @@ nav .menulist a {
   .banner .wrapper .banner-left h1 {
     /* border: 2px solid red; */
     font-size: 2.5em;
+    width: 100%;
+  }
+
+  .banner .wrapper .banner-left p {
+    width: 100%;
+    font-size: 1.2em;
+    /* border: 2px solid red; */
   }
 }
 
