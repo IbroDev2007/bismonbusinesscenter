@@ -513,6 +513,7 @@ nav .menulist a {
 .testimonial {
   padding: 80px 90px 10px 90px;
   background-color: #a97c30;
+  margin-top: 80px;
 }
 
 .testimonial .wrapper .carousel {
@@ -582,5 +583,94 @@ nav .menulist a {
 @media (max-width: 600px) {
   .testimonial .wrapper .carousel-item p:nth-child(1) {
     font-size: 1.1em;
+  }
+}
+
+.banner {
+  padding: 80px 20px 10px 20px;
+  /* padding: 8% 9% 1% 9%; */
+  margin-bottom: 50px;
+}
+
+.banner .wrapper {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.banner .wrapper .banner-left {
+  border: 2px solid blue;
+}
+
+.banner .wrapper .banner-left h1 {
+  /* border: 2px solid red; */
+  font-size: 3.5em;
+  width: 80%;
+}
+
+.banner .wrapper .banner-left p {
+  width: 60%;
+  font-size: 1.2em;
+  /* border: 2px solid red; */
+}
+
+.banner .wrapper .banner-left .btn {
+  background-color: #a97c30;
+  color: white;
+}
+
+.banner .wrapper .banner-right {
+  /* border: 2px solid red; */
+  width: 55%;
+  min-width: 0;
+}
+
+.banner .wrapper .banner-right img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 993px) {
+  .banner .wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2em;
+  }
+
+  .banner .wrapper .banner-left {
+    /* width: 60%; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .banner .wrapper .banner-right {
+    width: 90%;
+    min-width: auto;
+  }
+}
+
+@media (max-width: 620px) {
+  .banner .wrapper .banner-left h1 {
+    /* border: 2px solid red; */
+    font-size: 2.5em;
+  }
+}
+
+@media (max-width: 600px) {
+  .banner {
+    padding: 80px 8px 10px 8px;
+  }
+
+  .banner .wrapper .banner-right {
+    width: 95%;
+    min-width: auto;
   }
 }
