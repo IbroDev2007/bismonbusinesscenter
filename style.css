@@ -784,3 +784,99 @@ label:nth-child(9) {
     display: none;
   }
 }
+
+footer {
+  background-color: #a97c30;
+  margin-top: 50px;
+  padding: 70px 20px 50px 20px;
+}
+
+footer .wrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-logo {
+  width: 200px;
+}
+
+footer .wrapper .first p {
+  font-style: oblique;
+  font-size: 0.9em;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer .wrapper .first .icons {
+  display: flex;
+  color: white;
+  font-size: 1.5em;
+  gap: 0.3em;
+}
+
+footer .wrapper .quick .ul {
+  padding: 0;
+  color: white;
+  margin-top: -5px;
+  font-size: 1.1em;
+}
+
+footer .wrapper .quick .ul a {
+  color: white;
+}
+
+footer .wrapper .quick p {
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+footer .wrapper .updates {
+  color: white;
+}
+
+footer .wrapper .updates h2 {
+  color: white;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+footer .wrapper .updates input {
+  border: none;
+  padding: 15px 0px 5px 15px;
+  width: 100%;
+  font-size: 0.9em;
+  font-style: oblique;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+footer .wrapper .updates .btn {
+  background-color: white;
+  color: #a97c30;
+  margin-top: 15px;
+  font-weight: bold;
+  padding: 5px 10px 5px 10px;
+}
+
+@media (max-width: 993px) {
+  footer .wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 4em;
+    column-gap: 7em;
+  }
+
+  footer .wrapper .updates {
+    max-width: 1200px;
+  }
+}
+
+@media (max-width: 600px) {
+  footer .wrapper {
+    grid-template-columns: 1fr;
+  }
+}
