@@ -788,7 +788,7 @@ label:nth-child(9) {
 footer {
   background-color: #a97c30;
   margin-top: 50px;
-  padding: 70px 20px 50px 20px;
+  padding: 90px 20px 20px 20px;
 }
 
 footer .wrapper {
@@ -879,4 +879,15 @@ footer .wrapper .updates .btn {
   footer .wrapper {
     grid-template-columns: 1fr;
   }
+}
+
+.end {
+  border-top: thin solid white;
+  text-align: center;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 30px;
+  padding-top: 30px;
+  font-size: 0.9em;
+  color: white;
 }
